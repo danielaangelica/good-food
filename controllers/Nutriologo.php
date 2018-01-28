@@ -1,6 +1,6 @@
 <?php
-include_once(../models/Nutriologo.php);
-include_once(../models/cleaner.php);
+include_once("../models/Nutriologo.php");
+include_once("../models/cleaner.php");
 
 if (isset($_POST['action'])) {
 	$nombre=Cleaner::cleanInput($_POST['nombre']);
